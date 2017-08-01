@@ -1,2 +1,2 @@
-# lewwwel.github.com
+# lewwwel.github.io
 Personal Website
