@@ -2,20 +2,25 @@
 <html>
 <head>
   <style type="text/css">
-    #content {
-    position: absolute;
-    top: 50%;
-    height: 240px;
-    margin-top: -120px; /* negative half of the height */
+    #wrapper {
+    display: table;
+}
+
+#cell {
+    display: table-cell;
+    vertical-align: middle;
+}
 }
   </style>
   <title>lujinhuhi</title>
 </head>
 
 <body>
-  <div class="content">
-  Coming soon
-  </div>
+  <div id="wrapper">  
+    <div id="cell">
+        <div class="content">Coming soon.</div>
+    </div>
+</div>  
 </body>
 </html>
 
