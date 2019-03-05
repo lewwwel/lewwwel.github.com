@@ -1,6 +1,35 @@
-.wrap{
-	display:flex;
-	height:100vh;
-	justify-content:center;
-	align-items:center;
+body{
+	font-family: 'Open Sans', sans-serif;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+p{
+	font-size: 16px;
+	color: #666666;
+	margin: 0;
+	padding: 0;
+	line-height: 28px;
+}
+a{
+	color: #999999;
+}
+a.hover{
+	color: #333333;
+}
+.container{
+	width: 960px;
+	height: 200px;
+	position: relative;
+}
+.description{
+	display: inline-block;
+	width: 620px;
+}
+.avatar{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
