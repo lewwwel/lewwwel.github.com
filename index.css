@@ -1,0 +1,72 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+ul,li,dd,dl,dt,img {
+  list-style:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight:lighter;
+  font-size:100%;
+}
+body,div {
+  font-family: 'Inter', sans-serif;
+  -webkit-text-size-adjust:none;
+}
+a {
+  text-decoration:none;
+}
+
+
+#app{
+  height: 100vh;
+  /* border: 1px solid red; */
+  position: relative;
+
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+}
+.div1 {
+  font-size:28px;
+  align-items: center;
+  font-weight: 400;
+  padding: 40px;
+}
+
+.div2 {
+  font-size: 50px;
+  line-height: 75px;
+  align-items: center;
+  padding: 40px;
+}
+
+.div3 {
+  font-size: 28px;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+}
+
+.div3 > .main{
+  padding: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.div3 > .main > .age{
+  width: 300px;
+  text-align:left;
+}
